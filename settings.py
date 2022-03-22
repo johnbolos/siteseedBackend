@@ -166,52 +166,8 @@ SENDGRID_FROM_EMAIL = 'taruns@ghrix.com'
 GP_CLIENT_ID = '534389687515-fkjoa7qhnsj1va88632pl31rqcv3c5p9.apps.googleusercontent.com'   
 GP_CLIENT_SECRET = '6xNY--MYbNmOqkpuJWtK7CK5'
 
-
-
 ACCESS_TOKEN_EXPIRE_SECONDS = 36000000
-
-CORS_ALLOWED_ORIGINS = [
-    'http://137.184.225.50',
-    'http://localhost:8080',
-    'http://127.0.0.1:8080',
-    'http://localhost:8000',
-    'http://127.0.0.1:8000',
-    'http://localhost:3000',
-    'http://127.0.0.1:3000',
-]
-
-CORS_ALLOW_METHODS = [
-    "DELETE",
-    "GET",
-    "OPTIONS",
-    "PATCH",
-    "POST",
-    "PUT",
-]
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ORIGIN_ALLOW_ALL = True
-CORS_ALLOW_CREDENTIALS = None
-
-CORS_ALLOW_HEADERS = [
-    'accept',
-    'accept-encoding',
-    'authorization',
-    'content-type',
-    'dnt',
-    'origin',
-    'user-agent',
-    'x-csrftoken',
-    'x-requested-with',
-]
-
-CORS_ORIGIN_WHITELIST = (
-    'http://137.184.225.50',
-    'http://localhost:8080',
-    'http://127.0.0.1:8080',
-    'http://localhost:8000',
-    'http://127.0.0.1:8000',
-    'http://localhost:3000',
-    'http://127.0.0.1:3000',
-    '*'
-)
+CORS_ALLOW_CREDENTIALS = True
